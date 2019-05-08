@@ -1,0 +1,29 @@
+.Sradio {
+    display: flex;
+    font-size: 16px;
+
+    .box {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        height: 16px;
+        width: 16px;
+        margin-left: 26px;
+        margin-right: 13px;
+        border: 2px solid #485E7E;
+        vertical-align: text-bottom;
+    }
+   
+    .box.active::after {
+        content: '';
+        display: inline-block;
+        height: 6px;
+        width: 6px;
+        background-color: #B82A2A;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -3px;
+        margin-top: -3px;
+    }
+}

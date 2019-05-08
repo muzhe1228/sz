@@ -1,0 +1,101 @@
+@import "~style/color.less";
+.footer {
+    background-color:#08112C;
+    border-top:1px solid rgba(55, 75, 105, 0.5);
+    min-width: 1200px;
+    .container {
+        .other-terrace {
+            padding: 44px 0 50px 0;
+            display: flex;
+            justify-content: space-between;
+            .terrace {
+                h2 {
+                    width:219px;
+                    img {
+                        width:100%;
+                    }
+                }
+                p {
+                    color:#485E7E;
+                    padding: 7px 0 17px 0;
+                }
+                .share {
+                    display: flex;
+                    li {
+                        padding-right:15px;
+                        cursor: pointer;
+
+                        .wechatCode {
+                            display: none;
+                        }
+
+                        &:hover {
+                            .wechatCode {
+                                display: block;
+                                position: absolute;
+                                height: 100px;
+                                width: 100px;
+                                margin-left: -35px;
+                                margin-top: 5px;
+                            }
+                        }
+
+                        .iconfont {
+                            font-size:20px;
+                            color : rgba(72, 94, 126, 0.5);
+
+                            &:hover {
+                                color: #485E7E
+
+                            }
+                        }
+
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .other-list {
+                padding-right:20px;
+                display: flex;
+                dl {
+                    padding-left:80px;
+                    dt {
+                        color:#7D8CA5;
+                        padding-bottom:15px;
+                    }
+                    dd {
+                        line-height: 24px;
+                        a {
+                            color:#485E7E;
+                            font-size:14px;
+                            text-decoration: none;
+
+                            &:hover {
+                                color: #E83430
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+      .copyright {
+          text-align: center;
+          line-height: 85px;
+          font-size:14px;
+          color:#485E7E;
+      }
+    }
+}
+
+.footer.maxFooter {
+    .container {
+        width: 100%;
+
+        .terrace {
+            padding-left: 20px;
+        }
+    }
+}

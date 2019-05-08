@@ -1,0 +1,2402 @@
+[
+    {
+        "code": "86",
+        "country": "中国",
+        "country_en": "China",
+        "icon": "china",
+        "group": "热门",
+        "group_en": "hot",
+        "pinyin": "zhongguo",
+        "pinyinInitials": "zg"
+    },
+    {
+        "code": "852",
+        "country": "中国香港特别行政区",
+        "country_en": "Hong Kong",
+        "icon": "hongkong",
+        "group": "热门",
+        "group_en": "hot",
+        "pinyin": "zhongguoxianggangtebiexingzhengqu",
+        "pinyinInitials": "zgxgtbxzq"
+    },
+    {
+        "code": "886",
+        "country": "台湾",
+        "country_en": "Taiwan",
+        "icon": "taiwan",
+        "group": "热门",
+        "group_en": "hot",
+        "pinyin": "taiwan",
+        "pinyinInitials": "tw"
+    },
+    {
+        "code": "853",
+        "country": "中国澳门特别行政区",
+        "country_en": "Macao",
+        "icon": "macau",
+        "group": "热门",
+        "group_en": "hot",
+        "pinyin": "zhongguoaomentebiexingzhengqu",
+        "pinyinInitials": "zgamtbxzq"
+    },
+    {
+        "code": "1",
+        "country": "美国",
+        "country_en": "United States of America",
+        "icon": "united_states_of_america",
+        "group": "热门",
+        "group_en": "hot",
+        "pinyin": "meiguo",
+        "pinyinInitials": "mg"
+    },
+    {
+        "code": "82",
+        "country": "韩国",
+        "country_en": "South Korea",
+        "icon": "south_korea",
+        "group": "热门",
+        "group_en": "hot",
+        "pinyin": "hanguo",
+        "pinyinInitials": "hg"
+    },
+    {
+        "code": "81",
+        "country": "日本",
+        "country_en": "Japan",
+        "icon": "japan",
+        "group": "热门",
+        "group_en": "hot",
+        "pinyin": "riben",
+        "pinyinInitials": "rb"
+    },
+    {
+        "code": "65",
+        "country": "新加坡",
+        "country_en": "Singapore",
+        "icon": "singapore",
+        "group": "热门",
+        "group_en": "hot",
+        "pinyin": "xinjiapo",
+        "pinyinInitials": "xjp"
+    },
+    {
+        "code": "60",
+        "country": "马来西亚",
+        "country_en": "Malaysia",
+        "icon": "malaysia",
+        "group": "热门",
+        "group_en": "hot",
+        "pinyin": "malaixiya",
+        "pinyinInitials": "mlxy"
+    },
+    {
+        "code": "355",
+        "country": "阿尔巴尼亚",
+        "country_en": "Albania",
+        "icon": "albania",
+        "group": "A",
+        "group_en": "A",
+        "pinyin": "aerbaniya",
+        "pinyinInitials": "aebny"
+    },
+    {
+        "code": "213",
+        "country": "阿尔及利亚",
+        "country_en": "Algeria",
+        "icon": "algeria",
+        "group": "A",
+        "group_en": "A",
+        "pinyin": "aerjiliya",
+        "pinyinInitials": "aejly"
+    },
+    {
+        "code": "93",
+        "country": "阿富汗",
+        "country_en": "Afghanistan",
+        "icon": "afghanistan",
+        "group": "A",
+        "group_en": "A",
+        "pinyin": "afuhan",
+        "pinyinInitials": "afh"
+    },
+    {
+        "code": "54",
+        "country": "阿根廷",
+        "country_en": "Argentina",
+        "icon": "argentina",
+        "group": "A",
+        "group_en": "a",
+        "pinyin": "agenting",
+        "pinyinInitials": "agt"
+    },
+    {
+        "code": "353",
+        "country": "爱尔兰",
+        "country_en": "Ireland",
+        "icon": "ireland",
+        "group": "A",
+        "group_en": "I",
+        "pinyin": "aierlan",
+        "pinyinInitials": "ael"
+    },
+    {
+        "code": "20",
+        "country": "埃及",
+        "country_en": "Egypt",
+        "icon": "egypt",
+        "group": "A",
+        "group_en": "E",
+        "pinyin": "aiji",
+        "pinyinInitials": "aj"
+    },
+    {
+        "code": "372",
+        "country": "埃塞俄比亚",
+        "country_en": "Ethiopia",
+        "icon": "ethiopla",
+        "group": "A",
+        "group_en": "E",
+        "pinyin": "aisaiebiya",
+        "pinyinInitials": "aseby"
+    },
+    {
+        "code": "372",
+        "country": "爱沙尼亚",
+        "country_en": "Estonia",
+        "icon": "estonia",
+        "group": "A",
+        "group_en": "E",
+        "pinyin": "aishaniya",
+        "pinyinInitials": "asny"
+    },
+    {
+        "code": "971",
+        "country": "阿拉伯联合酋长国",
+        "country_en": "United Arab Emirates",
+        "icon": "united_arab_emirates",
+        "group": "A",
+        "group_en": "U",
+        "pinyin": "alabolianheqiuchangguo",
+        "pinyinInitials": "alblhqcg"
+    },
+    {
+        "code": "297",
+        "country": "阿鲁巴",
+        "country_en": "Aruba",
+        "icon": "aruba",
+        "group": "A",
+        "group_en": "A",
+        "pinyin": "aluba",
+        "pinyinInitials": "alb"
+    },
+    {
+        "code": "968",
+        "country": "阿曼",
+        "country_en": "Oman",
+        "icon": "oman",
+        "group": "A",
+        "group_en": "O",
+        "pinyin": "aman",
+        "pinyinInitials": "am"
+    },
+    {
+        "code": "376",
+        "country": "安道尔",
+        "country_en": "Andorra",
+        "icon": "andorra",
+        "group": "A",
+        "group_en": "A",
+        "pinyin": "andaoer",
+        "pinyinInitials": "ade"
+    },
+    {
+        "code": "244",
+        "country": "安哥拉",
+        "country_en": "Angola",
+        "icon": "angola",
+        "group": "A",
+        "group_en": "A",
+        "pinyin": "angela",
+        "pinyinInitials": "agl"
+    },
+    {
+        "code": "1264",
+        "country": "安圭拉",
+        "country_en": "Anguilla",
+        "icon": "anguilla",
+        "group": "A",
+        "group_en": "A",
+        "pinyin": "anguila",
+        "pinyinInitials": "agl"
+    },
+    {
+        "code": "1268",
+        "country": "阿提瓜和巴布达",
+        "country_en": "antigua and barbuda",
+        "icon": "antigua_and_barbuda",
+        "group": "A",
+        "group_en": "A",
+        "pinyin": "atiguahebabuda",
+        "pinyinInitials": "atghbbd"
+    },
+    {
+        "code": "61",
+        "country": "澳大利亚",
+        "country_en": "Australia",
+        "icon": "australia",
+        "group": "A",
+        "group_en": "A",
+        "pinyin": "aodaliya",
+        "pinyinInitials": "adly"
+    },
+    {
+        "code": "43",
+        "country": "奥地利",
+        "country_en": "Austria",
+        "icon": "austria",
+        "group": "A",
+        "group_en": "A",
+        "pinyin": "aodili",
+        "pinyinInitials": "adl"
+    },
+    {
+        "code": "994",
+        "country": "阿塞拜疆",
+        "country_en": "Azerbaijan",
+        "icon": "azerbaijan",
+        "group": "A",
+        "group_en": "A",
+        "pinyin": "asaibaijiang",
+        "pinyinInitials": "asbj"
+    },
+    {
+        "code": "1246",
+        "country": "巴巴多斯",
+        "country_en": "Barbados",
+        "icon": "barbados",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "babaduosi",
+        "pinyinInitials": "bbds"
+    },
+    {
+        "code": "675",
+        "country": "巴布亚新几内亚",
+        "country_en": "Papua New Guinea",
+        "icon": "papua_new_guinea",
+        "group": "B",
+        "group_en": "P",
+        "pinyin": "babuyaxinjineiya",
+        "pinyinInitials": "bbyxjny"
+    },
+    {
+        "code": "1242",
+        "country": "巴哈马",
+        "country_en": "Bahamas",
+        "icon": "bahamas",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "bahama",
+        "pinyinInitials": "bhm"
+    },
+    {
+        "code": "375",
+        "country": "白俄罗斯",
+        "country_en": "Belarus",
+        "icon": "belarus",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "baieluosi",
+        "pinyinInitials": "bels"
+    },
+    {
+        "code": "1441",
+        "country": "百慕大",
+        "country_en": "Bermuda",
+        "icon": "bermuda",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "baimuda",
+        "pinyinInitials": "bmd"
+    },
+    {
+        "code": "92",
+        "country": "巴基斯坦",
+        "country_en": "Pakistan",
+        "icon": "pakistan",
+        "group": "B",
+        "group_en": "P",
+        "pinyin": "bajisitan",
+        "pinyinInitials": "bjst"
+    },
+    {
+        "code": "970",
+        "country": "巴勒斯坦",
+        "country_en": "Palestine",
+        "icon": "palestine",
+        "group": "B",
+        "group_en": "P",
+        "pinyin": "balesitan",
+        "pinyinInitials": "blst"
+    },
+    {
+        "code": "595",
+        "country": "巴拉圭",
+        "country_en": "Paraguay",
+        "icon": "paraguay",
+        "group": "B",
+        "group_en": "P",
+        "pinyin": "balagui",
+        "pinyinInitials": "blg"
+    },
+    {
+        "code": "973",
+        "country": "巴林",
+        "country_en": "Bahrain",
+        "icon": "bahrain",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "balin",
+        "pinyinInitials": "bl"
+    },
+    {
+        "code": "507",
+        "country": "巴拿马",
+        "country_en": "Panama",
+        "icon": "panama",
+        "group": "B",
+        "group_en": "P",
+        "pinyin": "banama",
+        "pinyinInitials": "bnm"
+    },
+    {
+        "code": "359",
+        "country": "保加利亚",
+        "country_en": "Bulgaria",
+        "icon": "bulgaria",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "baojialiya",
+        "pinyinInitials": "bjly"
+    },
+    {
+        "code": "55",
+        "country": "巴西",
+        "country_en": "Brazil",
+        "icon": "brazil",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "baxi",
+        "pinyinInitials": "bx"
+    },
+    {
+        "code": "1670",
+        "country": "北马里亚纳群岛",
+        "country_en": "North Mariana Islands",
+        "icon": "",
+        "group": "B",
+        "group_en": "N",
+        "pinyin": "beimaliyanaqundao",
+        "pinyinInitials": "bmlynqd"
+    },
+    {
+        "code": "229",
+        "country": "贝宁",
+        "country_en": "Benin",
+        "icon": "benin",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "beining",
+        "pinyinInitials": "bn"
+    },
+    {
+        "code": "32",
+        "country": "比利时",
+        "country_en": "Belgium",
+        "icon": "belgium",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "bilishi",
+        "pinyinInitials": "bls"
+    },
+    {
+        "code": "354",
+        "country": "冰岛",
+        "country_en": "Iceland",
+        "icon": "iceland",
+        "group": "B",
+        "group_en": "I",
+        "pinyin": "bingdao",
+        "pinyinInitials": "bd"
+    },
+    {
+        "code": "267",
+        "country": "博茨瓦纳",
+        "country_en": "Botswana",
+        "icon": "botswana",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "bociwana",
+        "pinyinInitials": "bcwn"
+    },
+    {
+        "code": "1787",
+        "country": "波多黎各",
+        "country_en": "Puerto Rico",
+        "icon": "puerto_rico",
+        "group": "B",
+        "group_en": "P",
+        "pinyin": "boduolige",
+        "pinyinInitials": "bdlg"
+    },
+    {
+        "code": "48",
+        "country": "波兰",
+        "country_en": "Poland",
+        "icon": "poland",
+        "group": "B",
+        "group_en": "P",
+        "pinyin": "bolan",
+        "pinyinInitials": "bl"
+    },
+    {
+        "code": "591",
+        "country": "玻利维亚",
+        "country_en": "Bolivia",
+        "icon": "bolivia",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "boliweiya",
+        "pinyinInitials": "blwy"
+    },
+    {
+        "code": "501",
+        "country": "伯利兹",
+        "country_en": "Belize",
+        "icon": "belize",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "bolizi",
+        "pinyinInitials": "blz"
+    },
+    {
+        "code": "387",
+        "country": "波斯尼亚和黑塞哥维那",
+        "country_en": "Bosnia and Herzegovina",
+        "icon": "bosnia_and_herzgovina",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "bosiniyaheheisaigeweina",
+        "pinyinInitials": "bsnyhhsgwn"
+    },
+    {
+        "code": "975",
+        "country": "不丹",
+        "country_en": "Bhutan",
+        "icon": "bhutan",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "budan",
+        "pinyinInitials": "bd"
+    },
+    {
+        "code": "226",
+        "country": "布基纳法索",
+        "country_en": "Burkina Faso",
+        "icon": "burkina_faso",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "bujinafasuo",
+        "pinyinInitials": "bjnfs"
+    },
+    {
+        "code": "257",
+        "country": "布隆迪",
+        "country_en": "Burundi",
+        "icon": "burundi",
+        "group": "B",
+        "group_en": "B",
+        "pinyin": "bulongdi",
+        "pinyinInitials": "bld"
+    },
+    {
+        "code": "850",
+        "country": "朝鲜",
+        "country_en": "North Korea",
+        "icon": "north_korea",
+        "group": "C",
+        "group_en": "K",
+        "pinyin": "chaoxian",
+        "pinyinInitials": "cx"
+    },
+    {
+        "code": "240",
+        "country": "赤道几内亚",
+        "country_en": "Equatorial Guinea",
+        "icon": "equatorlal_guinea",
+        "group": "C",
+        "group_en": "E",
+        "pinyin": "chidaojineiya",
+        "pinyinInitials": "cdjny"
+    },
+    {
+        "code": "45",
+        "country": "丹麦",
+        "country_en": "Denmark",
+        "icon": "denmark",
+        "group": "D",
+        "group_en": "D",
+        "pinyin": "danmai",
+        "pinyinInitials": "dm"
+    },
+    {
+        "code": "49",
+        "country": "德国",
+        "country_en": "Germany",
+        "icon": "germany",
+        "group": "D",
+        "group_en": "G",
+        "pinyin": "deguo",
+        "pinyinInitials": "dg"
+    },
+    {
+        "code": "670",
+        "country": "东帝汶",
+        "country_en": "Timor-Leste",
+        "icon": "timor_leste",
+        "group": "D",
+        "group_en": "T",
+        "pinyin": "dongdiwen",
+        "pinyinInitials": "ddw"
+    },
+    {
+        "code": "228",
+        "country": "多哥",
+        "country_en": "Togo",
+        "icon": "togo",
+        "group": "D",
+        "group_en": "T",
+        "pinyin": "duoge",
+        "pinyinInitials": "dg"
+    },
+    {
+        "code": "1809",
+        "country": "多尼米加共和国",
+        "country_en": "Dominican Republic",
+        "icon": "dominican_republic",
+        "group": "D",
+        "group_en": "D",
+        "pinyin": "duonimijiagongheguo",
+        "pinyinInitials": "dnmjghg"
+    },
+    {
+        "code": "1767",
+        "country": "多米尼克",
+        "country_en": "Dominica",
+        "icon": "dominica",
+        "group": "D",
+        "group_en": "D",
+        "pinyin": "duominike",
+        "pinyinInitials": "dmnk"
+    },
+    {
+        "code": "593",
+        "country": "厄瓜多尔",
+        "country_en": "Ecuador",
+        "icon": "ecuador",
+        "group": "E",
+        "group_en": "E",
+        "pinyin": "eguaduoer",
+        "pinyinInitials": "egde"
+    },
+    {
+        "code": "291",
+        "country": "厄立特里亚",
+        "country_en": "Eritrea",
+        "icon": "eritrea",
+        "group": "E",
+        "group_en": "E",
+        "pinyin": "eliteliya",
+        "pinyinInitials": "eltly"
+    },
+    {
+        "code": "7",
+        "country": "俄罗斯",
+        "country_en": "Russia",
+        "icon": "russia",
+        "group": "E",
+        "group_en": "R",
+        "pinyin": "eluosi",
+        "pinyinInitials": "els"
+    },
+    {
+        "code": "33",
+        "country": "法国",
+        "country_en": "France",
+        "icon": "france",
+        "group": "F",
+        "group_en": "F",
+        "pinyin": "faguo",
+        "pinyinInitials": "fg"
+    },
+    {
+        "code": "298",
+        "country": "法罗群岛",
+        "country_en": "Faroe Islands",
+        "icon": "faroe_islnads",
+        "group": "F",
+        "group_en": "F",
+        "pinyin": "faluoqundao",
+        "pinyinInitials": "flqd"
+    },
+    {
+        "code": "379",
+        "country": "梵蒂冈",
+        "country_en": "Vatican",
+        "icon": "vatican_city",
+        "group": "F",
+        "group_en": "V",
+        "pinyin": "fandigang",
+        "pinyinInitials": "fdg"
+    },
+    {
+        "code": "689",
+        "country": "法属波利尼西亚",
+        "country_en": "French Polynesia",
+        "icon": "",
+        "group": "F",
+        "group_en": "F",
+        "pinyin": "fashubolinixiya",
+        "pinyinInitials": "fsblnxy"
+    },
+    {
+        "code": "1599",
+        "country": "法属圣马丁",
+        "country_en": "Saint-Martin",
+        "icon": "",
+        "group": "F",
+        "group_en": "a",
+        "pinyin": "fashushengmading",
+        "pinyinInitials": "fssmd"
+    },
+    {
+        "code": "679",
+        "country": "斐济",
+        "country_en": "Fiji",
+        "icon": "fiji",
+        "group": "F",
+        "group_en": "F",
+        "pinyin": "feiji",
+        "pinyinInitials": "fj"
+    },
+    {
+        "code": "63",
+        "country": "菲律宾",
+        "country_en": "The Philippines",
+        "icon": "philippines",
+        "group": "F",
+        "group_en": "P",
+        "pinyin": "feilvbin",
+        "pinyinInitials": "flb"
+    },
+    {
+        "code": "358",
+        "country": "芬兰",
+        "country_en": "Finland",
+        "icon": "finland",
+        "group": "F",
+        "group_en": "F",
+        "pinyin": "fenlan",
+        "pinyinInitials": "fl"
+    },
+    {
+        "code": "238",
+        "country": "佛得角",
+        "country_en": "Cape Verde",
+        "icon": "cape_verde",
+        "group": "F",
+        "group_en": "C",
+        "pinyin": "fodejiao",
+        "pinyinInitials": "fdj"
+    },
+    {
+        "code": "500",
+        "country": "福克兰群岛",
+        "country_en": "Falkland Islands",
+        "icon": "",
+        "group": "F",
+        "group_en": "F",
+        "pinyin": "fukelanqundao",
+        "pinyinInitials": "fklqd"
+    },
+    {
+        "code": "220",
+        "country": "冈比亚",
+        "country_en": "Gambia",
+        "icon": "gambia",
+        "group": "G",
+        "group_en": "G",
+        "pinyin": "gangbiya",
+        "pinyinInitials": "gby"
+    },
+    {
+        "code": "242",
+        "country": "刚果（布）",
+        "country_en": "The Republic of Congo",
+        "icon": "republic_op_the_congo",
+        "group": "G",
+        "group_en": "C",
+        "pinyin": "gangguobu",
+        "pinyinInitials": "ggb"
+    },
+    {
+        "code": "243",
+        "country": "刚果（金）",
+        "country_en": "Democratic Republic of the Congo",
+        "icon": "democratic_republic_of_the_congo",
+        "group": "G",
+        "group_en": "C",
+        "pinyin": "gangguojin",
+        "pinyinInitials": "ggj"
+    },
+    {
+        "code": "299",
+        "country": "格陵兰",
+        "country_en": "Greenland",
+        "icon": "greenland",
+        "group": "G",
+        "group_en": "G",
+        "pinyin": "gelinglan",
+        "pinyinInitials": "gll"
+    },
+    {
+        "code": "1473",
+        "country": "格林纳达",
+        "country_en": "Grenada",
+        "icon": "grenada",
+        "group": "G",
+        "group_en": "G",
+        "pinyin": "gelinnada",
+        "pinyinInitials": "glnd"
+    },
+    {
+        "code": "995",
+        "country": "格鲁吉亚",
+        "country_en": "Georgia",
+        "icon": "georgia",
+        "group": "G",
+        "group_en": "G",
+        "pinyin": "gelujiya",
+        "pinyinInitials": "gljy"
+    },
+    {
+        "code": "57",
+        "country": "哥伦比亚",
+        "country_en": "Columbia",
+        "icon": "columbia",
+        "group": "G",
+        "group_en": "C",
+        "pinyin": "gelunbiya",
+        "pinyinInitials": "glby"
+    },
+    {
+        "code": "506",
+        "country": "哥斯达黎加",
+        "country_en": "Costa Rica",
+        "icon": "costa_rica",
+        "group": "G",
+        "group_en": "C",
+        "pinyin": "gesidalijia",
+        "pinyinInitials": "gsdlj"
+    },
+    {
+        "code": "1671",
+        "country": "关岛",
+        "country_en": "Guam",
+        "icon": "guam",
+        "group": "G",
+        "group_en": "G",
+        "pinyin": "guandao",
+        "pinyinInitials": "gd"
+    },
+    {
+        "code": "53",
+        "country": "古巴",
+        "country_en": "Cuba",
+        "icon": "cuba",
+        "group": "G",
+        "group_en": "C",
+        "pinyin": "guba",
+        "pinyinInitials": "gb"
+    },
+    {
+        "code": "592",
+        "country": "圭亚那",
+        "country_en": "Guyana",
+        "icon": "guyana",
+        "group": "G",
+        "group_en": "G",
+        "pinyin": "guiyana",
+        "pinyinInitials": "gyn"
+    },
+    {
+        "code": "509",
+        "country": "海地",
+        "country_en": "Haiti",
+        "icon": "haiti",
+        "group": "H",
+        "group_en": "H",
+        "pinyin": "haidi",
+        "pinyinInitials": "hd"
+    },
+    {
+        "code": "82",
+        "country": "韩国",
+        "country_en": "South Korea",
+        "icon": "south_korea",
+        "group": "H",
+        "group_en": "K",
+        "pinyin": "hanguo",
+        "pinyinInitials": "hg"
+    },
+    {
+        "code": "7",
+        "country": "哈萨克斯坦",
+        "country_en": "Kazakhstan",
+        "icon": "kazakhstan",
+        "group": "H",
+        "group_en": "K",
+        "pinyin": "hasakesitan",
+        "pinyinInitials": "hskst"
+    },
+    {
+        "code": "382",
+        "country": "黑山",
+        "country_en": "Montenegro",
+        "icon": "montenegro",
+        "group": "H",
+        "group_en": "M",
+        "pinyin": "heishan",
+        "pinyinInitials": "hs"
+    },
+    {
+        "code": "31",
+        "country": "荷兰",
+        "country_en": "Netherlands",
+        "icon": "netherlands",
+        "group": "H",
+        "group_en": "N",
+        "pinyin": "helan",
+        "pinyinInitials": "hl"
+    },
+    {
+        "code": "599",
+        "country": "荷属安地列斯群岛",
+        "country_en": "Netherlands Antilles",
+        "icon": "",
+        "group": "H",
+        "group_en": "a",
+        "pinyin": "heshuandiliesiqundao",
+        "pinyinInitials": "hsadlsqd"
+    },
+    {
+        "code": "504",
+        "country": "洪都拉斯",
+        "country_en": "Honduras",
+        "icon": "honduras",
+        "group": "H",
+        "group_en": "H",
+        "pinyin": "hongdoulasi",
+        "pinyinInitials": "hdls"
+    },
+    {
+        "code": "233",
+        "country": "加纳",
+        "country_en": "Ghana",
+        "icon": "ghana",
+        "group": "J",
+        "group_en": "G",
+        "pinyin": "jiana",
+        "pinyinInitials": "jn"
+    },
+    {
+        "code": "1",
+        "country": "加拿大",
+        "country_en": "Canada",
+        "icon": "canada",
+        "group": "J",
+        "group_en": "C",
+        "pinyin": "jianada",
+        "pinyinInitials": "jnd"
+    },
+    {
+        "code": "855",
+        "country": "柬埔寨",
+        "country_en": "Cambodia",
+        "icon": "cambodia",
+        "group": "J",
+        "group_en": "C",
+        "pinyin": "jianpuzhai",
+        "pinyinInitials": "jpz"
+    },
+    {
+        "code": "241",
+        "country": "加蓬",
+        "country_en": "Gabon",
+        "icon": "gabon",
+        "group": "J",
+        "group_en": "G",
+        "pinyin": "jiapeng",
+        "pinyinInitials": "jp"
+    },
+    {
+        "code": "253",
+        "country": "吉布提",
+        "country_en": "Djibouti",
+        "icon": "djibouti",
+        "group": "J",
+        "group_en": "D",
+        "pinyin": "jibuti",
+        "pinyinInitials": "jbt"
+    },
+    {
+        "code": "420",
+        "country": "捷克共和国",
+        "country_en": "Czech Republic",
+        "icon": "czech_repuclic",
+        "group": "J",
+        "group_en": "C",
+        "pinyin": "jiekegongheguo",
+        "pinyinInitials": "jkghg"
+    },
+    {
+        "code": "996",
+        "country": "吉尔吉斯斯坦",
+        "country_en": "Kyrgyzstan",
+        "icon": "kyrgyzstan",
+        "group": "J",
+        "group_en": "K",
+        "pinyin": "jierjisisitan",
+        "pinyinInitials": "jejsst"
+    },
+    {
+        "code": "686",
+        "country": "基里巴斯",
+        "country_en": "Kiribati",
+        "icon": "kiribati",
+        "group": "J",
+        "group_en": "K",
+        "pinyin": "jilibasi",
+        "pinyinInitials": "jlbs"
+    },
+    {
+        "code": "263",
+        "country": "津巴布韦",
+        "country_en": "Zimbabwe",
+        "icon": "zimbabwe",
+        "group": "J",
+        "group_en": "Z",
+        "pinyin": "jinbabuwei",
+        "pinyinInitials": "jbbw"
+    },
+    {
+        "code": "224",
+        "country": "几内亚",
+        "country_en": "Guinea",
+        "icon": "guinea",
+        "group": "J",
+        "group_en": "G",
+        "pinyin": "jineiya",
+        "pinyinInitials": "jny"
+    },
+    {
+        "code": "245",
+        "country": "几内亚比绍",
+        "country_en": "Guinea-Bissau",
+        "icon": "guinea_bissau",
+        "group": "J",
+        "group_en": "G",
+        "pinyin": "jineiyabishao",
+        "pinyinInitials": "jnybs"
+    },
+    {
+        "code": "34",
+        "country": "加泰罗尼亚",
+        "country_en": "Catalonia",
+        "icon": "catalonia",
+        "group": "J",
+        "group_en": "C",
+        "pinyin": "jiatailuoniya",
+        "pinyinInitials": "jtlny"
+    },
+    {
+        "code": "1345",
+        "country": "开曼群岛",
+        "country_en": "Cayman Islands",
+        "icon": "cayman_islands",
+        "group": "K",
+        "group_en": "C",
+        "pinyin": "kaimanqundao",
+        "pinyinInitials": "kmqd"
+    },
+    {
+        "code": "237",
+        "country": "喀麦隆",
+        "country_en": "Cameroon",
+        "icon": "cameroon",
+        "group": "K",
+        "group_en": "C",
+        "pinyin": "kamailong",
+        "pinyinInitials": "kml"
+    },
+    {
+        "code": "974",
+        "country": "卡塔尔",
+        "country_en": "Qatar",
+        "icon": "qatar",
+        "group": "K",
+        "group_en": "Q",
+        "pinyin": "kataer",
+        "pinyinInitials": "kte"
+    },
+    {
+        "code": "61",
+        "country": "科科斯（基林）群岛",
+        "country_en": "Cocos (Keeling) Islands",
+        "icon": "australia",
+        "group": "K",
+        "group_en": "C",
+        "pinyin": "kekesijilinqundao",
+        "pinyinInitials": "kksjlqd"
+    },
+    {
+        "code": "385",
+        "country": "克罗地亚",
+        "country_en": "Croatia",
+        "icon": "croatia",
+        "group": "K",
+        "group_en": "C",
+        "pinyin": "keluodiya",
+        "pinyinInitials": "kldy"
+    },
+    {
+        "code": "269",
+        "country": "科摩罗",
+        "country_en": "Comoros",
+        "icon": "comoros",
+        "group": "K",
+        "group_en": "C",
+        "pinyin": "kemoluo",
+        "pinyinInitials": "kml"
+    },
+    {
+        "code": "254",
+        "country": "肯尼亚",
+        "country_en": "Kenya",
+        "icon": "kenya",
+        "group": "K",
+        "group_en": "K",
+        "pinyin": "kenniya",
+        "pinyinInitials": "kny"
+    },
+    {
+        "code": "225",
+        "country": "科特迪瓦",
+        "country_en": "Cote d'Ivoire",
+        "icon": "cote_d_ivoire",
+        "group": "K",
+        "group_en": "I",
+        "pinyin": "ketediwa",
+        "pinyinInitials": "ktdw"
+    },
+    {
+        "code": "965",
+        "country": "科威特",
+        "country_en": "Kuwait",
+        "icon": "kuwait",
+        "group": "K",
+        "group_en": "K",
+        "pinyin": "keweite",
+        "pinyinInitials": "kwt"
+    },
+    {
+        "code": "682",
+        "country": "库克群岛",
+        "country_en": "Cook Islands",
+        "icon": "cook_islands",
+        "group": "K",
+        "group_en": "C",
+        "pinyin": "kukequndao",
+        "pinyinInitials": "kkqd"
+    },
+    {
+        "code": "266",
+        "country": "莱索托",
+        "country_en": "Lesotho",
+        "icon": "lesotho",
+        "group": "L",
+        "group_en": "L",
+        "pinyin": "laisuotuo",
+        "pinyinInitials": "lst"
+    },
+    {
+        "code": "856",
+        "country": "老挝",
+        "country_en": "Laos",
+        "icon": "laos",
+        "group": "L",
+        "group_en": "L",
+        "pinyin": "laowo",
+        "pinyinInitials": "lw"
+    },
+    {
+        "code": "371",
+        "country": "拉脱维亚",
+        "country_en": "Latvia",
+        "icon": "latvia",
+        "group": "L",
+        "group_en": "L",
+        "pinyin": "latuoweiya",
+        "pinyinInitials": "ltwy"
+    },
+    {
+        "code": "961",
+        "country": "黎巴嫩",
+        "country_en": "Lebanon",
+        "icon": "lebanon",
+        "group": "L",
+        "group_en": "L",
+        "pinyin": "libanen",
+        "pinyinInitials": "lbn"
+    },
+    {
+        "code": "231",
+        "country": "利比里亚",
+        "country_en": "Liberia",
+        "icon": "liberia",
+        "group": "L",
+        "group_en": "L",
+        "pinyin": "libiliya",
+        "pinyinInitials": "lbly"
+    },
+    {
+        "code": "218",
+        "country": "利比亚",
+        "country_en": "Libya",
+        "icon": "libya",
+        "group": "L",
+        "group_en": "L",
+        "pinyin": "libiya",
+        "pinyinInitials": "lby"
+    },
+    {
+        "code": "423",
+        "country": "列支敦士登",
+        "country_en": "Liechtenstein",
+        "icon": "liechtenstein",
+        "group": "L",
+        "group_en": "L",
+        "pinyin": "liezhidunshideng",
+        "pinyinInitials": "lzdsd"
+    },
+    {
+        "code": "370",
+        "country": "立陶宛",
+        "country_en": "Lithuania",
+        "icon": "lithuania",
+        "group": "L",
+        "group_en": "L",
+        "pinyin": "litaowan",
+        "pinyinInitials": "ltw"
+    },
+    {
+        "code": "40",
+        "country": "罗马尼亚",
+        "country_en": "Romania",
+        "icon": "romania",
+        "group": "L",
+        "group_en": "R",
+        "pinyin": "luomaniya",
+        "pinyinInitials": "lmny"
+    },
+    {
+        "code": "352",
+        "country": "卢森堡",
+        "country_en": "Luxembourg",
+        "icon": "luxembourg",
+        "group": "L",
+        "group_en": "L",
+        "pinyin": "lusenbao",
+        "pinyinInitials": "lsb"
+    },
+    {
+        "code": "250",
+        "country": "卢旺达",
+        "country_en": "Rwanda",
+        "icon": "rwanda",
+        "group": "L",
+        "group_en": "R",
+        "pinyin": "luwangda",
+        "pinyinInitials": "lwd"
+    },
+    {
+        "code": "261",
+        "country": "马达加斯加",
+        "country_en": "Madagascar",
+        "icon": "madagascar",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "madajiasijia",
+        "pinyinInitials": "mdjsj"
+    },
+    {
+        "code": "960",
+        "country": "马尔代夫",
+        "country_en": "Maldives",
+        "icon": "maldives",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "maerdaifu",
+        "pinyinInitials": "medf"
+    },
+    {
+        "code": "356",
+        "country": "马耳他",
+        "country_en": "Malta",
+        "icon": "malta",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "maerta",
+        "pinyinInitials": "met"
+    },
+    {
+        "code": "60",
+        "country": "马来西亚",
+        "country_en": "Malaysia",
+        "icon": "malaysia",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "malaixiya",
+        "pinyinInitials": "mlxy"
+    },
+    {
+        "code": "265",
+        "country": "马拉维",
+        "country_en": "Malawi",
+        "icon": "malawi",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "malawei",
+        "pinyinInitials": "mlw"
+    },
+    {
+        "code": "223",
+        "country": "马里",
+        "country_en": "Mali",
+        "icon": "mali",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "mali",
+        "pinyinInitials": "ml"
+    },
+    {
+        "code": "44",
+        "country": "曼岛",
+        "country_en": "Isle of man",
+        "icon": "isle_of_man",
+        "group": "M",
+        "group_en": "I",
+        "pinyin": "mandao",
+        "pinyinInitials": "md"
+    },
+    {
+        "code": "230",
+        "country": "毛里求斯",
+        "country_en": "Mauritius",
+        "icon": "mauritius",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "maoliqiusi",
+        "pinyinInitials": "mlqs"
+    },
+    {
+        "code": "222",
+        "country": "毛里塔尼亚",
+        "country_en": "Mauritania",
+        "icon": "mauritania",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "maolitaniya",
+        "pinyinInitials": "mltny"
+    },
+    {
+        "code": "389",
+        "country": "马其顿",
+        "country_en": "Macedonia",
+        "icon": "macedonia",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "maqidun",
+        "pinyinInitials": "mqd"
+    },
+    {
+        "code": "692",
+        "country": "马绍尔群岛",
+        "country_en": "Marshall Islands",
+        "icon": "marshall_lslands",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "mashaoerqundao",
+        "pinyinInitials": "mseqd"
+    },
+    {
+        "code": "262",
+        "country": "马约特",
+        "country_en": "Mayotte",
+        "icon": "mayotte",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "mayuete",
+        "pinyinInitials": "myt"
+    },
+    {
+        "code": "1",
+        "country": "美国",
+        "country_en": "United States of America",
+        "icon": "united_states_of_america",
+        "group": "M",
+        "group_en": "U",
+        "pinyin": "meiguo",
+        "pinyinInitials": "mg"
+    },
+    {
+        "code": "1684",
+        "country": "美属萨摩亚",
+        "country_en": "American Samoa",
+        "icon": "",
+        "group": "M",
+        "group_en": "A",
+        "pinyin": "meishusamoya",
+        "pinyinInitials": "mssmy"
+    },
+    {
+        "code": "1340",
+        "country": "美属维京群岛",
+        "country_en": "United States Virgin Islands",
+        "icon": "",
+        "group": "M",
+        "group_en": "U",
+        "pinyin": "meishuweijingqundao",
+        "pinyinInitials": "mswjqd"
+    },
+    {
+        "code": "976",
+        "country": "蒙古",
+        "country_en": "Mongolia",
+        "icon": "mongolia",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "menggu",
+        "pinyinInitials": "mg"
+    },
+    {
+        "code": "880",
+        "country": "孟加拉国",
+        "country_en": "Bangladesh",
+        "icon": "bangladesh",
+        "group": "M",
+        "group_en": "B",
+        "pinyin": "mengjialaguo",
+        "pinyinInitials": "mjlg"
+    },
+    {
+        "code": "1664",
+        "country": "蒙特塞拉特",
+        "country_en": "Montserrat",
+        "icon": "montserrat",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "mengtesailate",
+        "pinyinInitials": "mtslt"
+    },
+    {
+        "code": "95",
+        "country": "缅甸",
+        "country_en": "Myanmar",
+        "icon": "myanmar",
+        "group": "M",
+        "group_en": "B",
+        "pinyin": "miandian",
+        "pinyinInitials": "md"
+    },
+    {
+        "code": "691",
+        "country": "密克罗尼西亚",
+        "country_en": "Micronesia",
+        "icon": "micronesia",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "mikeluonixiya",
+        "pinyinInitials": "mklnxy"
+    },
+    {
+        "code": "51",
+        "country": "秘鲁",
+        "country_en": "Peru",
+        "icon": "peru",
+        "group": "M",
+        "group_en": "P",
+        "pinyin": "bilu",
+        "pinyinInitials": "bl"
+    },
+    {
+        "code": "373",
+        "country": "摩尔多瓦",
+        "country_en": "Moldova",
+        "icon": "moldova",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "moerduowa",
+        "pinyinInitials": "medw"
+    },
+    {
+        "code": "212",
+        "country": "摩洛哥",
+        "country_en": "Morocco",
+        "icon": "morocco",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "moluoge",
+        "pinyinInitials": "mlg"
+    },
+    {
+        "code": "377",
+        "country": "摩纳哥",
+        "country_en": "Monaco",
+        "icon": "monaco",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "monage",
+        "pinyinInitials": "mng"
+    },
+    {
+        "code": "258",
+        "country": "莫桑比克",
+        "country_en": "Mozambique",
+        "icon": "mozambique",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "mosangbike",
+        "pinyinInitials": "msbk"
+    },
+    {
+        "code": "52",
+        "country": "墨西哥",
+        "country_en": "Mexico",
+        "icon": "mexico",
+        "group": "M",
+        "group_en": "M",
+        "pinyin": "moxige",
+        "pinyinInitials": "mxg"
+    },
+    {
+        "code": "264",
+        "country": "纳米比亚",
+        "country_en": "Namibia",
+        "icon": "namibia",
+        "group": "N",
+        "group_en": "N",
+        "pinyin": "namibiya",
+        "pinyinInitials": "nmby"
+    },
+    {
+        "code": "27",
+        "country": "南非",
+        "country_en": "South Africa",
+        "icon": "south_africa",
+        "group": "N",
+        "group_en": "S",
+        "pinyin": "nanfei",
+        "pinyinInitials": "nf"
+    },
+    {
+        "code": "672",
+        "country": "南极洲",
+        "country_en": "Antarctica",
+        "icon": "antarctica",
+        "group": "N",
+        "group_en": "A",
+        "pinyin": "nanjizhou",
+        "pinyinInitials": "njz"
+    },
+    {
+        "code": "674",
+        "country": "瑙鲁",
+        "country_en": "Nauru",
+        "icon": "nauru",
+        "group": "N",
+        "group_en": "N",
+        "pinyin": "naolu",
+        "pinyinInitials": "nl"
+    },
+    {
+        "code": "977",
+        "country": "尼泊尔",
+        "country_en": "Nepal",
+        "icon": "nepal",
+        "group": "N",
+        "group_en": "N",
+        "pinyin": "niboer",
+        "pinyinInitials": "nbe"
+    },
+    {
+        "code": "505",
+        "country": "尼加拉瓜",
+        "country_en": "Nicaragua",
+        "icon": "nicaragua",
+        "group": "N",
+        "group_en": "N",
+        "pinyin": "nijialagua",
+        "pinyinInitials": "njlg"
+    },
+    {
+        "code": "227",
+        "country": "尼日尔",
+        "country_en": "Niger",
+        "icon": "niger",
+        "group": "N",
+        "group_en": "N",
+        "pinyin": "nirier",
+        "pinyinInitials": "nre"
+    },
+    {
+        "code": "234",
+        "country": "尼日利亚",
+        "country_en": "Nigeria",
+        "icon": "nigeria",
+        "group": "N",
+        "group_en": "N",
+        "pinyin": "niriliya",
+        "pinyinInitials": "nrly"
+    },
+    {
+        "code": "683",
+        "country": "纽埃",
+        "country_en": "Niue",
+        "icon": "niue",
+        "group": "N",
+        "group_en": "N",
+        "pinyin": "niuai",
+        "pinyinInitials": "na"
+    },
+    {
+        "code": "47",
+        "country": "挪威",
+        "country_en": "Norway",
+        "icon": "norway",
+        "group": "N",
+        "group_en": "N",
+        "pinyin": "nuowei",
+        "pinyinInitials": "nw"
+    },
+    {
+        "code": "680",
+        "country": "帕劳",
+        "country_en": "Palau",
+        "icon": "palau",
+        "group": "P",
+        "group_en": "P",
+        "pinyin": "palao",
+        "pinyinInitials": "pl"
+    },
+    {
+        "code": "870",
+        "country": "皮特凯恩群岛",
+        "country_en": "Pitcairn Islands",
+        "icon": "",
+        "group": "P",
+        "group_en": "P",
+        "pinyin": "pitekaienqundao",
+        "pinyinInitials": "ptkeqd"
+    },
+    {
+        "code": "351",
+        "country": "葡萄牙",
+        "country_en": "Portugal",
+        "icon": "portugal",
+        "group": "P",
+        "group_en": "P",
+        "pinyin": "putaoya",
+        "pinyinInitials": "pty"
+    },
+    {
+        "code": "81",
+        "country": "日本",
+        "country_en": "Japan",
+        "icon": "japan",
+        "group": "R",
+        "group_en": "J",
+        "pinyin": "riben",
+        "pinyinInitials": "rb"
+    },
+    {
+        "code": "46",
+        "country": "瑞典",
+        "country_en": "Sweden",
+        "icon": "sweden",
+        "group": "R",
+        "group_en": "S",
+        "pinyin": "ruidian",
+        "pinyinInitials": "rd"
+    },
+    {
+        "code": "41",
+        "country": "瑞士",
+        "country_en": "Switzerland",
+        "icon": "switzerland",
+        "group": "R",
+        "group_en": "S",
+        "pinyin": "ruishi",
+        "pinyinInitials": "rs"
+    },
+    {
+        "code": "503",
+        "country": "萨尔瓦多",
+        "country_en": "El Salvador",
+        "icon": "salvatore",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "saerwaduo",
+        "pinyinInitials": "sewd"
+    },
+    {
+        "code": "381",
+        "country": "塞尔维亚",
+        "country_en": "Serbia",
+        "icon": "serbia",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "saierweiya",
+        "pinyinInitials": "sewy"
+    },
+    {
+        "code": "232",
+        "country": "塞拉利昂",
+        "country_en": "Sierra Leone",
+        "icon": "sierra_leone",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "sailaliang",
+        "pinyinInitials": "slla"
+    },
+    {
+        "code": "221",
+        "country": "塞内加尔",
+        "country_en": "Senegal",
+        "icon": "senegal",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "saineijiaer",
+        "pinyinInitials": "snje"
+    },
+    {
+        "code": "357",
+        "country": "塞浦路斯",
+        "country_en": "Cyprus",
+        "icon": "cyprus",
+        "group": "S",
+        "group_en": "C",
+        "pinyin": "saipulusi",
+        "pinyinInitials": "spls"
+    },
+    {
+        "code": "248",
+        "country": "塞舌尔",
+        "country_en": "Seychelles",
+        "icon": "seychelles",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "saisheer",
+        "pinyinInitials": "sse"
+    },
+    {
+        "code": "685",
+        "country": "萨摩亚",
+        "country_en": "Samoa",
+        "icon": "samoa",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "samoya",
+        "pinyinInitials": "smy"
+    },
+    {
+        "code": "966",
+        "country": "沙特阿拉伯",
+        "country_en": "Saudi Arabia",
+        "icon": "saudi_arabia",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "shatealabo",
+        "pinyinInitials": "stalb"
+    },
+    {
+        "code": "590",
+        "country": "圣巴泰勒米",
+        "country_en": "Saint Barthelemy",
+        "icon": "",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "shengbatailemi",
+        "pinyinInitials": "sbtlm"
+    },
+    {
+        "code": "61",
+        "country": "圣诞岛",
+        "country_en": "Christmas Island",
+        "icon": "australia",
+        "group": "S",
+        "group_en": "C",
+        "pinyin": "shengdandao",
+        "pinyinInitials": "sdd"
+    },
+    {
+        "code": "239",
+        "country": "圣多美和普林西比",
+        "country_en": "Sao Tome and Principe",
+        "icon": "sao_tome_and_principe",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "shengduomeihepulinxibi",
+        "pinyinInitials": "sdmhplxb"
+    },
+    {
+        "code": "290",
+        "country": "圣赫勒拿",
+        "country_en": "Saint Helena",
+        "icon": "",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "shenghelena",
+        "pinyinInitials": "shln"
+    },
+    {
+        "code": "1869",
+        "country": "圣基茨和尼维斯",
+        "country_en": "Saint Jane and Nevis",
+        "icon": "saint_kitts_and_nevis",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "shengjiciheniweisi",
+        "pinyinInitials": "sjchnws"
+    },
+    {
+        "code": "1758",
+        "country": "圣卢西亚",
+        "country_en": "Saint Lucia",
+        "icon": "saint_lucia",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "shengluxiya",
+        "pinyinInitials": "slxy"
+    },
+    {
+        "code": "378",
+        "country": "圣马力诺",
+        "country_en": "San Marino",
+        "icon": "san_marino",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "shengmalinuo",
+        "pinyinInitials": "smln"
+    },
+    {
+        "code": "508",
+        "country": "圣皮埃尔和密克隆群岛",
+        "country_en": "Saint-Pierre and Miquelon",
+        "icon": "",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "shengpiaierhemikelongqundao",
+        "pinyinInitials": "spaehmklqd"
+    },
+    {
+        "code": "1784",
+        "country": "圣文森特和格林纳丁斯",
+        "country_en": "Saint Vincent and the Grenadines",
+        "icon": "saint_vincent_and_the_grenadines",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "shengwensentehegelinnadingsi",
+        "pinyinInitials": "swsthglnds"
+    },
+    {
+        "code": "94",
+        "country": "斯里兰卡",
+        "country_en": "Sri Lanka",
+        "icon": "sri_lanke",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "sililanka",
+        "pinyinInitials": "sllk"
+    },
+    {
+        "code": "421",
+        "country": "斯洛伐克",
+        "country_en": "Slovakia",
+        "icon": "slovakia",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "siluofake",
+        "pinyinInitials": "slfk"
+    },
+    {
+        "code": "386",
+        "country": "斯洛文尼亚",
+        "country_en": "Slovenia",
+        "icon": "slovenia",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "siluowenniya",
+        "pinyinInitials": "slwny"
+    },
+    {
+        "code": "268",
+        "country": "斯威士兰",
+        "country_en": "Swaziland",
+        "icon": "swaziland",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "siweishilan",
+        "pinyinInitials": "swsl"
+    },
+    {
+        "code": "249",
+        "country": "苏丹",
+        "country_en": "Sudan",
+        "icon": "sudan",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "sudan",
+        "pinyinInitials": "sd"
+    },
+    {
+        "code": "597",
+        "country": "苏里南",
+        "country_en": "Surinam",
+        "icon": "suriname",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "sulinan",
+        "pinyinInitials": "sln"
+    },
+    {
+        "code": "677",
+        "country": "所罗门群岛",
+        "country_en": "Solomon Islands",
+        "icon": "solomon_islands",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "suoluomenqundao",
+        "pinyinInitials": "slmqd"
+    },
+    {
+        "code": "252",
+        "country": "索马里",
+        "country_en": "Somalia",
+        "icon": "somalia",
+        "group": "S",
+        "group_en": "S",
+        "pinyin": "suomali",
+        "pinyinInitials": "sml"
+    },
+    {
+        "code": "66",
+        "country": "泰国",
+        "country_en": "Thailand",
+        "icon": "thailand",
+        "group": "T",
+        "group_en": "T",
+        "pinyin": "taiguo",
+        "pinyinInitials": "tg"
+    },
+    {
+        "code": "886",
+        "country": "台湾",
+        "country_en": "Taiwan",
+        "icon": "taiwan",
+        "group": "T",
+        "group_en": "T",
+        "pinyin": "taiwan",
+        "pinyinInitials": "tw"
+    },
+    {
+        "code": "992",
+        "country": "塔吉克斯坦",
+        "country_en": "Tajikistan",
+        "icon": "tajikistan",
+        "group": "T",
+        "group_en": "T",
+        "pinyin": "tajikesitan",
+        "pinyinInitials": "tjkst"
+    },
+    {
+        "code": "676",
+        "country": "汤加",
+        "country_en": "Tonga",
+        "icon": "tonga",
+        "group": "T",
+        "group_en": "T",
+        "pinyin": "tangjia",
+        "pinyinInitials": "tj"
+    },
+    {
+        "code": "255",
+        "country": "坦桑尼亚",
+        "country_en": "Tanzania",
+        "icon": "tanzania",
+        "group": "T",
+        "group_en": "T",
+        "pinyin": "tansangniya",
+        "pinyinInitials": "tsny"
+    },
+    {
+        "code": "1649",
+        "country": "特克斯和凯科斯群岛",
+        "country_en": "Turks and Caicos Islands",
+        "icon": "",
+        "group": "T",
+        "group_en": "T",
+        "pinyin": "tekesihekaikesiqundao",
+        "pinyinInitials": "tkshkksqd"
+    },
+    {
+        "code": "1868",
+        "country": "特立尼达和多巴哥",
+        "country_en": "Trinidad and Tobago",
+        "icon": "trinidad_and_tobago",
+        "group": "T",
+        "group_en": "T",
+        "pinyin": "telinidaheduobage",
+        "pinyinInitials": "tlndhdbg"
+    },
+    {
+        "code": "90",
+        "country": "土耳其",
+        "country_en": "Turkey",
+        "icon": "turkey",
+        "group": "T",
+        "group_en": "T",
+        "pinyin": "tuerqi",
+        "pinyinInitials": "teq"
+    },
+    {
+        "code": "993",
+        "country": "土库曼斯坦",
+        "country_en": "Turkmenistan",
+        "icon": "turkmenistan",
+        "group": "T",
+        "group_en": "T",
+        "pinyin": "tukumansitan",
+        "pinyinInitials": "tkmst"
+    },
+    {
+        "code": "216",
+        "country": "突尼斯",
+        "country_en": "Tunisia",
+        "icon": "tunisia",
+        "group": "T",
+        "group_en": "T",
+        "pinyin": "tunisi",
+        "pinyinInitials": "tns"
+    },
+    {
+        "code": "690",
+        "country": "托克劳",
+        "country_en": "Tokelau",
+        "icon": "tokelau",
+        "group": "T",
+        "group_en": "T",
+        "pinyin": "tuokelao",
+        "pinyinInitials": "tkl"
+    },
+    {
+        "code": "688",
+        "country": "图瓦卢",
+        "country_en": "Tuvalu",
+        "icon": "tuvalu",
+        "group": "T",
+        "group_en": "T",
+        "pinyin": "tuwalu",
+        "pinyinInitials": "twl"
+    },
+    {
+        "code": "681",
+        "country": "瓦利斯和富图纳",
+        "country_en": "Wallis et Futuna",
+        "icon": "",
+        "group": "W",
+        "group_en": "W",
+        "pinyin": "walisihefutuna",
+        "pinyinInitials": "wlshftn"
+    },
+    {
+        "code": "678",
+        "country": "瓦努阿图",
+        "country_en": "Vanuatu",
+        "icon": "vanatu",
+        "group": "W",
+        "group_en": "V",
+        "pinyin": "wanuatu",
+        "pinyinInitials": "wnat"
+    },
+    {
+        "code": "502",
+        "country": "危地马拉",
+        "country_en": "Guatemala",
+        "icon": "guatemala",
+        "group": "W",
+        "group_en": "G",
+        "pinyin": "weidimala",
+        "pinyinInitials": "wdml"
+    },
+    {
+        "code": "58",
+        "country": "委内瑞拉",
+        "country_en": "Venezuela",
+        "icon": "venezuela",
+        "group": "W",
+        "group_en": "V",
+        "pinyin": "weineiruila",
+        "pinyinInitials": "wnrl"
+    },
+    {
+        "code": "673",
+        "country": "文莱",
+        "country_en": "Brunei",
+        "icon": "brunei",
+        "group": "W",
+        "group_en": "B",
+        "pinyin": "wenlai",
+        "pinyinInitials": "wl"
+    },
+    {
+        "code": "256",
+        "country": "乌干达",
+        "country_en": "Uganda",
+        "icon": "uganda",
+        "group": "W",
+        "group_en": "U",
+        "pinyin": "wuganda",
+        "pinyinInitials": "wgd"
+    },
+    {
+        "code": "380",
+        "country": "乌克兰",
+        "country_en": "Ukraine",
+        "icon": "ukraine",
+        "group": "W",
+        "group_en": "U",
+        "pinyin": "wukelan",
+        "pinyinInitials": "wkl"
+    },
+    {
+        "code": "598",
+        "country": "乌拉圭",
+        "country_en": "Uruguay",
+        "icon": "uruguay",
+        "group": "W",
+        "group_en": "U",
+        "pinyin": "wulagui",
+        "pinyinInitials": "wlg"
+    },
+    {
+        "code": "998",
+        "country": "乌兹别克斯坦",
+        "country_en": "Uzbekistan",
+        "icon": "uzbekistan",
+        "group": "W",
+        "group_en": "U",
+        "pinyin": "wuzibiekesitan",
+        "pinyinInitials": "wzbkst"
+    },
+    {
+        "code": "34",
+        "country": "西班牙",
+        "country_en": "Spain",
+        "icon": "spain",
+        "group": "X",
+        "group_en": "S",
+        "pinyin": "xibanya",
+        "pinyinInitials": "xby"
+    },
+    {
+        "code": "30",
+        "country": "希腊",
+        "country_en": "Greece",
+        "icon": "greece",
+        "group": "X",
+        "group_en": "G",
+        "pinyin": "xila",
+        "pinyinInitials": "xl"
+    },
+    {
+        "code": "65",
+        "country": "新加坡",
+        "country_en": "Singapore",
+        "icon": "singapore",
+        "group": "X",
+        "group_en": "S",
+        "pinyin": "xinjiapo",
+        "pinyinInitials": "xjp"
+    },
+    {
+        "code": "687",
+        "country": "新喀里多尼亚",
+        "country_en": "New Caledonia",
+        "icon": "new_caledonia",
+        "group": "X",
+        "group_en": "N",
+        "pinyin": "xinkaliduoniya",
+        "pinyinInitials": "xkldny"
+    },
+    {
+        "code": "64",
+        "country": "新西兰",
+        "country_en": "New Zealand",
+        "icon": "new_zealand",
+        "group": "X",
+        "group_en": "N",
+        "pinyin": "xinxilan",
+        "pinyinInitials": "xxl"
+    },
+    {
+        "code": "36",
+        "country": "匈牙利",
+        "country_en": "Hungary",
+        "icon": "hungary",
+        "group": "X",
+        "group_en": "H",
+        "pinyin": "xiongyali",
+        "pinyinInitials": "xyl"
+    },
+    {
+        "code": "963",
+        "country": "叙利亚",
+        "country_en": "Syria",
+        "icon": "syria",
+        "group": "X",
+        "group_en": "S",
+        "pinyin": "xuliya",
+        "pinyinInitials": "xly"
+    },
+    {
+        "code": "1876",
+        "country": "牙买加",
+        "country_en": "Jamaica",
+        "icon": "jamaica",
+        "group": "Y",
+        "group_en": "J",
+        "pinyin": "yamaijia",
+        "pinyinInitials": "ymj"
+    },
+    {
+        "code": "374",
+        "country": "亚美尼亚",
+        "country_en": "Armenia",
+        "icon": "armenia",
+        "group": "Y",
+        "group_en": "A",
+        "pinyin": "yameiniya",
+        "pinyinInitials": "ymny"
+    },
+    {
+        "code": "967",
+        "country": "也门",
+        "country_en": "Yemen",
+        "icon": "yemen",
+        "group": "Y",
+        "group_en": "Y",
+        "pinyin": "yemen",
+        "pinyinInitials": "ym"
+    },
+    {
+        "code": "39",
+        "country": "意大利",
+        "country_en": "Italy",
+        "icon": "italy",
+        "group": "Y",
+        "group_en": "I",
+        "pinyin": "yidali",
+        "pinyinInitials": "ydl"
+    },
+    {
+        "code": "964",
+        "country": "伊拉克",
+        "country_en": "Iraq",
+        "icon": "iraq",
+        "group": "Y",
+        "group_en": "I",
+        "pinyin": "yilake",
+        "pinyinInitials": "ylk"
+    },
+    {
+        "code": "98",
+        "country": "伊朗",
+        "country_en": "Iran",
+        "icon": "iran",
+        "group": "Y",
+        "group_en": "I",
+        "pinyin": "yilang",
+        "pinyinInitials": "yl"
+    },
+    {
+        "code": "91",
+        "country": "印度",
+        "country_en": "India",
+        "icon": "india",
+        "group": "Y",
+        "group_en": "I",
+        "pinyin": "yindu",
+        "pinyinInitials": "yd"
+    },
+    {
+        "code": "62",
+        "country": "印度尼西亚",
+        "country_en": "Indonesia",
+        "icon": "indonesia",
+        "group": "Y",
+        "group_en": "I",
+        "pinyin": "yindunixiya",
+        "pinyinInitials": "ydnxy"
+    },
+    {
+        "code": "44",
+        "country": "英国",
+        "country_en": "United Kingdom",
+        "icon": "united_kingdom",
+        "group": "Y",
+        "group_en": "U",
+        "pinyin": "yingguo",
+        "pinyinInitials": "yg"
+    },
+    {
+        "code": "1284",
+        "country": "英属维京群岛",
+        "country_en": "British Virgin Islands",
+        "icon": "",
+        "group": "Y",
+        "group_en": "B",
+        "pinyin": "yingshuweijingqundao",
+        "pinyinInitials": "yswjqd"
+    },
+    {
+        "code": "972",
+        "country": "以色列",
+        "country_en": "Israel",
+        "icon": "israel",
+        "group": "Y",
+        "group_en": "I",
+        "pinyin": "yiselie",
+        "pinyinInitials": "ysl"
+    },
+    {
+        "code": "962",
+        "country": "约旦",
+        "country_en": "Jordan",
+        "icon": "jordan",
+        "group": "Y",
+        "group_en": "J",
+        "pinyin": "yuedan",
+        "pinyinInitials": "yd"
+    },
+    {
+        "code": "84",
+        "country": "越南",
+        "country_en": "Vietnam",
+        "icon": "vietnam",
+        "group": "Y",
+        "group_en": "V",
+        "pinyin": "yuenan",
+        "pinyinInitials": "yn"
+    },
+    {
+        "code": "260",
+        "country": "赞比亚",
+        "country_en": "Zambia",
+        "icon": "zambia",
+        "group": "Z",
+        "group_en": "Z",
+        "pinyin": "zanbiya",
+        "pinyinInitials": "zby"
+    },
+    {
+        "code": "235",
+        "country": "乍得",
+        "country_en": "Chad",
+        "icon": "chad",
+        "group": "Z",
+        "group_en": "C",
+        "pinyin": "zhade",
+        "pinyinInitials": "zd"
+    },
+    {
+        "code": "350",
+        "country": "直布罗陀",
+        "country_en": "Gibraltar",
+        "icon": "gibraltar",
+        "group": "Z",
+        "group_en": "G",
+        "pinyin": "zhibuluotuo",
+        "pinyinInitials": "zblt"
+    },
+    {
+        "code": "56",
+        "country": "智利",
+        "country_en": "Chile",
+        "icon": "chile",
+        "group": "Z",
+        "group_en": "C",
+        "pinyin": "zhili",
+        "pinyinInitials": "zl"
+    },
+    {
+        "code": "236",
+        "country": "中非共和国",
+        "country_en": "Central African Republic",
+        "icon": "central_african_republic",
+        "group": "Z",
+        "group_en": "C",
+        "pinyin": "zhongfeigongheguo",
+        "pinyinInitials": "zfghg"
+    },
+    {
+        "code": "86",
+        "country": "中国",
+        "country_en": "China",
+        "icon": "china",
+        "group": "Z",
+        "group_en": "C",
+        "pinyin": "zhongguo",
+        "pinyinInitials": "zg"
+    },
+    {
+        "code": "853",
+        "country": "中国澳门特别行政区",
+        "country_en": "Macao",
+        "icon": "macau",
+        "group": "Z",
+        "group_en": "M",
+        "pinyin": "zhongguoaomentebiexingzhengqu",
+        "pinyinInitials": "zgamtbxzq"
+    },
+    {
+        "code": "852",
+        "country": "中国香港特别行政区",
+        "country_en": "Hong Kong",
+        "icon": "hongkong",
+        "group": "Z",
+        "group_en": "H",
+        "pinyin": "zhongguoxianggangtebiexingzhengqu",
+        "pinyinInitials": "zgxgtbxzq"
+    }
+]

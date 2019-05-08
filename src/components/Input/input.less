@@ -1,0 +1,43 @@
+@import '~style/size';
+@import '~style/color';
+
+.input-component {
+  font-size: 12px;
+  display: inline-block;
+  &.input-error {
+    input {
+      background-color: #fff;
+      border-color: #f40;
+    }
+  }
+  > div {
+    display: flex;
+    input {
+      flex: 1;
+      height: 45px;
+      border: 1px solid 1px;
+      outline: none;
+      padding: 0 10px;
+      &:focus {
+        border-color: #f40;
+      }
+      &:disabled, &:disabled + .unit {
+        background-color: #fff;
+        color: #f40;
+      }
+    }
+    .unit {
+      padding: 0 6px;
+      line-height: 45px - 2px;
+      border: 1px solid 1px;
+      border-left: none;
+    }
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}

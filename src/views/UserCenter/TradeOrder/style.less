@@ -1,0 +1,99 @@
+.TradeDetails,
+.history-entrust,
+.TradeDetails {
+  width: 910px;
+  background-color: #162345;
+  padding: 30px 40px;
+  font-size: 14px;
+  position: relative;
+  .select-gulp {
+    //select样式和排列
+    margin-top: 30px;
+    display: flex;
+    color: #485E7E;
+    font-size: 14px;
+    .searchBtn {
+      width: 118px;
+      height: 36px;
+      background-color: #993E32;
+      border-color: #BF5546;
+      color: #EBEEF4;
+      border-radius: 18px;
+      &:hover {
+        background-color: #993E32;
+        border-color: #BF5546;
+      }
+    }
+  }
+  .userListWrap {
+    //所有的列表
+    margin-top: 30px;
+    &-title,
+    &-single {
+      display: flex;
+      height: 68px;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      border-bottom: 1px solid #1E2F5B;
+      font-size: 12px;
+      line-height: 16px;
+      &.hide {
+        display: none;
+      }
+      li {
+        width: 15%;
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(8) {
+          width: 10%;
+        }
+        &:nth-child(3),
+        &:nth-child(4),
+        &:nth-child(5),
+        &:nth-child(6),
+          {
+          text-align: left;
+        }
+        p {
+          line-height: 20px;
+        }
+        &:first-child {
+          text-align: left;
+          p {
+            &:last-child {
+              color: #485E7E;
+            }
+          }
+        }
+        &:last-child {
+          text-align: right;
+        }
+      }
+    }
+    &-title {
+      background-color: #1E2F5B;
+      color: #485E7E;
+      height: 46px;
+      &:after,
+      &:before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 46px;
+        background-color: #1E2F5B;
+        top: 0;
+      }
+      &:after {
+        right: -40px;
+      }
+      &:before {
+        left: -40px;
+      }
+    }
+    &-single {
+      color: #AFB9C8;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+.regModeShard{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.5);
+    &.stateHid{
+        display: none
+    }
+    .regState {
+        width: 800px;
+        color: #EBEEF4;
+        line-height: 1.5;
+        padding: 15px 5px 35px 20px;
+        position: relative;
+        background-color: #131F3E;
+        margin: 40px auto;
+        &-btn{
+            margin-top: 16px;
+            width: 100px;
+            height: 32px;
+            border-radius: 16px;
+            border: 1px solid #993E32;
+            color: #BF5546;
+        }
+        .closeIcon{
+            padding: 20px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            i{
+                cursor: pointer;
+                font-size: 18px;
+                &:hover{
+                    color:#993E32;
+                }
+            }
+        }
+        .protocol_zh,.protocol_zh{
+            height: 400px;
+            width: 100%;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            &::-webkit-scrollbar {
+                width: 9px;
+                height: 9px;
+                box-sizing: border-box;
+            }
+            &::-webkit-scrollbar-thumb {
+                background-color: #7D8CA5;
+                -webkit-border-radius: 5px;
+            }
+            &::-webkit-scrollbar-track-piece {
+                background-color: #131F3E;
+            }
+        }
+        h1 {
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h3 {
+            font-weight: 400;
+            font-size: 16px;
+            margin: 15px 0;
+        }
+        p {
+            margin: 10px 0;
+            text-indent: 2em;
+        }
+        p span {
+            display: block;
+            margin: 5px 0;
+            text-indent: 2em;
+        }
+        .subTitle {
+            font-size: 14px;
+            text-indent: 0;
+        }
+    }
+}

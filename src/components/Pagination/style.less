@@ -1,0 +1,42 @@
+@import '~style/size';
+@import '~style/color';
+.pagination {
+    display: flex;
+    align-items: center;
+    .pre ,.next{
+        width:6px;
+        height:6px;
+        border-top:1px solid #485E7E;
+        border-left:1px solid #485E7E;
+        display: block;
+        transform : rotate(-45deg);
+        cursor: pointer;
+        margin-right:10px;
+    }
+    .next {
+        transform : rotate(135deg);
+        margin-left:10px;
+
+    }
+    .disabled {
+        cursor: not-allowed;
+    }
+    ul {
+        display: flex;
+        li {
+            background-color: transparent;
+            border: 1px solid transparent;
+            border-radius: 26px;
+            text-align: center;
+            width:24px;
+            height:19px;
+            line-height: 19px;
+            cursor: pointer;
+        }
+        li.active {
+            opacity: 0.5;
+            border-color:#485E7E;
+            background-color:#101A37;
+        }
+    }
+}

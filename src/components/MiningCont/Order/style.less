@@ -1,0 +1,43 @@
+.terrace-order {
+  .myData,
+  .allData {
+    padding: 20px 60px 20px 60px;
+    ul {
+      li {
+        display: flex;
+        border: 1px solid #24304B;
+        height: 50px;
+        border-top: none;
+        &:first-child {
+          border-top: 1px solid #24304B;
+          color: #374B69;
+        }
+        p {
+          height: 100%;
+          line-height: 48px;
+          flex: 1;
+          text-align: center;
+          border-right: 1px solid #24304B;
+          &:last-child {
+            border-right: none;
+          }
+        }
+      }
+    }
+  }
+  .allData {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      width: calc((100% - 60px)/2);
+    }
+  }
+  .notData{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #24304B; 
+    justify-content: center;
+  }
+}

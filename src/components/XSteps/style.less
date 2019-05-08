@@ -1,0 +1,46 @@
+.x-steps {
+    display: flex;
+
+    >div {
+        position: relative;
+        margin-right: 219px;
+
+        p.yuandian{
+            display: inline-block;
+            height: 11px;
+            width: 11px;
+            background-color: #374B69;
+            border-radius: 100%;
+        }
+        
+        p.yuandian.active {
+            background-color: #993E32;
+        }
+
+        .line {
+            display: inline-block;
+            position: absolute;
+            left: 11px;
+            top: 8px;
+            width: 219px;
+            height: 2px;
+            background-color: #374B69;
+            
+        }
+
+        .line.active {
+            background-color: #993E32;
+        }
+
+        .steps-title {
+            position: absolute;
+            font-size: 14px;
+            top: 17px;
+            width: 100px;
+            text-align: center;
+            left: 50%;
+            margin-left: -50px;
+        }
+
+    }
+}

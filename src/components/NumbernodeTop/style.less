@@ -1,0 +1,64 @@
+.numbernodeTop {
+    position: relative;
+    width: 1200px;
+    height: 439px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #101832;
+    background: url('../../images/numbernodeBak.png') no-repeat;
+    padding: 0 180px;
+
+    .applyNumbernode {
+        position: absolute;
+        padding: 9px 27px;
+        color: #BF5546;
+        border: solid 1px #BF5546;
+        top: 104px;
+        right: 219px;
+        font-size: 16px;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+
+    .numbernodeTotal {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 200px;
+        bottom: 0;
+        background-color: #101832;
+        padding: 40px 0px 30px 170px;
+        display: flex;
+
+        &>div {
+            flex: 1;
+            &:first-child{
+                p{
+                    &:nth-of-type(2){
+                        color: #AC6826;
+                    }
+                }
+            }
+            p {
+                &:nth-of-type(1) {
+                    color: #485E7E;
+                    font-size: 12px;
+                }
+                &:nth-of-type(2) {
+                    color: #C48F0F;
+                    font-size: 26px;
+                }
+                &:nth-of-type(3) {
+                    color: #485E7E;
+                    font-size: 12px;
+                    margin-top: 25px;
+                }
+                &:nth-of-type(4) {
+                    color: #7D8CA5;
+                    font-size: 16px;
+                }
+            }
+            
+        }
+    }
+}

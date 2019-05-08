@@ -1,0 +1,86 @@
+.withdraw-container {
+    color: #7D8CA5;
+    font-size: 14px;
+
+    .modal .modal-content {
+        margin-top: 0;
+    }
+    .modal .modal-content > .modal-footer {
+        margin-bottom: 20px;
+    }
+
+    a {
+        color: #BF5546;
+        text-decoration: none;
+    }
+
+    .item-one {
+        position: relative;
+        margin-bottom: 30px;
+
+        .icon-right {
+            display: inline-block;
+            position: absolute;
+            right: 0;
+            color: #BF5546; 
+            display: inline-block; 
+            font-size: 16px; 
+            margin-top: -33px; 
+            cursor: pointer;
+            z-index: 3;
+        }
+
+        &.hasBtn {
+            position: relative;
+            .time-button {
+                position: absolute;
+                right: 0;
+                top: 0;
+                font-size: 14px;
+                border: 0;
+                text-align: right;
+                width: 90px;
+            }
+        }
+
+        ul {
+            position: absolute;
+            width: 100%;
+            z-index: 3;
+            background-color: #131F3E;
+            max-height: 180px;
+            overflow: auto;
+
+            li {
+                height: 32px;
+                line-height: 32px;
+                font-size: 12px;
+                cursor: pointer;
+                padding-left: 24px;
+
+                &:hover {
+                    background-color: #1E2F5B;
+                    color: #BF5546;
+                }
+            }
+        }
+    }
+
+    .notice {
+        position: relative;
+        margin-bottom: 6px;
+        padding-left: 15px;
+        &::before {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 6px;
+            height: 6px;
+            vertical-align: middle;
+            background-color: #7D8CA5;
+            border-radius: 100%;
+        }
+    }
+}

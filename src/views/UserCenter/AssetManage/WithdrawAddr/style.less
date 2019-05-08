@@ -1,0 +1,210 @@
+.withdraw-addr {
+  padding: 40px 0;
+  position: relative;
+  .title {
+    padding-left: 40px;
+  }
+  .add-addr {
+    &-inp {
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+      padding: 0 40px;
+      .select-gulp-single {
+        margin-right: 0;
+        p {
+          font-size: 14px;
+          color: #485E7E;
+        }
+      }
+      &-group {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        >span {
+          font-size: 14px;
+          color: #485E7E;
+          padding-left: 20px;
+        }
+        .addr-input {
+          width: 220px;
+        }
+        .remark-input {
+          width: 136px;
+        }
+        .tag-input {
+          width: 120px;
+        }
+        .form-input input {
+          border-radius: 100px;
+          height: 34px;
+        }
+        .btn {
+          text-align: right;
+          margin-top: 0;
+        }
+      }
+    }
+    .addr-btn {
+      .btn {
+        text-align: right;
+        padding-right: 50px;
+        margin-top: 20px;
+      }
+    }
+    .btn {
+      .btn-small {
+        width: 118px;
+        height: 36px;
+        margin-left: 50px;
+      }
+    }
+  }
+  .data-list {
+    margin-top: 30px;
+    .list-header {
+      height: 46px;
+      line-height: 46px;
+      background-color: #1E2F5B;
+      display: flex;
+      color: #485E7E;
+      font-size: 12px;
+      padding: 0 40px;
+      p {
+        flex: 1;
+        &:nth-of-type(2) {
+          flex: 2.5;
+          text-align: center;
+        }
+        &:nth-of-type(3) {
+          flex: 1.5;
+          text-align: center;
+        }
+        &:nth-of-type(4) {
+          text-align: right;
+        }
+      }
+    }
+    ul {
+      // padding: 0 40px;
+      li {
+        height: 47px;
+        line-height: 47px;
+        text-align: center;
+        border-bottom: solid 1px #1E2F5B;
+        display: flex;
+        margin: 0 40px;
+        div {
+          flex: 1;
+        }
+        p {
+          flex: 1;
+          text-align: left;
+          &:nth-of-type(2) {
+            display: flex;
+            flex: 2.5;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            .addrCodeWrap {
+              position: relative;
+              .addrIcon {
+                cursor: pointer;
+                margin-right: 6px;
+                vertical-align: middle;
+              }
+              .addrCode {
+                position: absolute;
+                top: 36px;
+                left: -44px;
+                display: none;
+                width: 102px;
+                height: 102px;
+                border: 7px solid #101A37;
+                z-index: 2;
+              }
+              &:hover {
+                .addrCode {
+                  display: inline-block;
+                }
+              }
+            }
+            .addr-group {
+              display: flex;
+              flex-direction: column;
+              span {
+                line-height: 18px;
+                &:nth-child(2) {
+                  color: #7D8CA5;
+                }
+              }
+            }
+          }
+          &:nth-of-type(3) {
+            flex: 1.5;
+            text-align: center;
+          }
+          &:nth-of-type(4) {
+            text-align: right;
+            cursor: pointer;
+            color: #BF5546;
+          }
+        }
+      }
+    }
+  }
+  .tel-code {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 630px;
+    height: 349px;
+    background-color: #162345;
+    text-align: center;
+    h2 {
+      font-size: 20px;
+      padding: 48px 0;
+      color: #AFB9C8;
+    }
+    .code-input {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 30px;
+      input {
+        background-color: transparent;
+        width: 380px;
+        font-size: 14px;
+        border-bottom: 1px solid #1E2F5B;
+        height: 52px;
+      }
+      span {
+        display: block;
+        width: 130px;
+        height: 52px;
+        font-size: 14px;
+        color: #BF5546;
+        border: 1px solid #BF5546;
+        line-height: 52px;
+        border-radius: 100px;
+        cursor: pointer;
+      }
+    }
+    .btn .btn-big {
+      width: 380px;
+      height: 52px;
+      margin: 0 auto;
+    }
+  }
+  .confirmDel {
+    min-height: 235px;
+    width: 480px;
+    font-size: 14px;
+    text-align: center;
+    .hasBtn {
+      display: flex;
+      margin-top: 67px;
+      justify-content: center;
+    }
+  }
+}

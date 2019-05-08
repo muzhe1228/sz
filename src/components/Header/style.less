@@ -1,0 +1,210 @@
+@import '~style/color.less';
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  height: 80px;
+  width: 100%;
+  padding: 0 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  min-width: 1200px;
+  .header-l {
+    display: flex;
+    align-items: center;
+    h1 {
+      width: 192px;
+      img {
+        width: 100%;
+      }
+    }
+    .nav {
+      display: flex;
+      margin-left: 28px;
+      justify-content: space-between;
+      li {
+        height: 83px;
+        line-height: 83px;
+        margin-right: 20px;
+        border-bottom: 3px solid transparent;
+        a {
+          display: block;
+          color: #D7DEE9;
+          font-size: 14px;
+          text-decoration: none;
+        }
+      }
+      li:hover {
+        border-color: #E83430;
+        a {
+          color: #E83430;
+        }
+      }
+    }
+  }
+  .header-r {
+    // min-width: 480px;
+    display: flex;
+    align-items: center;
+    .appDownload {
+      cursor: pointer;
+      a {
+        color: #D7DEE9;
+        text-decoration: none;
+        &:hover {
+          color: #E83430;
+        }
+      }
+    }
+    .lang {
+      position: relative;
+      cursor: pointer;
+      ul {
+        display: none;
+        padding: 10px 0;
+        background-color: #101832;
+        border-radius: 5px;
+        li {
+          width: 100px;
+          text-align: center;
+          padding: 5px 0;
+          &:hover {
+            background-color: #162345;
+            color: #E83430;
+          }
+        }
+      }
+      &:hover ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+      }
+    }
+    li.lang {
+      display: flex;
+      align-items: center;
+    }
+    .register {
+      padding: 0 30px 0 20px;
+      .btn {
+        .btn-default {
+          background-color: #AFB9C8;
+          color: #08112C;
+        }
+      }
+    }
+    .nick-name {
+      position: relative;
+      margin-right: 30px; // .btn {
+      .btn-default {
+        color: #E83430;
+        border-color: #E83430;
+      }
+      .userName {
+        background-color: transparent;
+        color: #E83430;
+        border-color: #E83430;
+        width: 100px;
+        height: 28px;
+        border-radius: 14px; // line-height: 26px;
+        span {
+          display: inline-block;
+          width: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          line-height: 26px;
+        }
+      }
+      .user-operate {
+        display: none;
+      }
+      .showOrNotMy {
+        .btn .btn-small {
+          width: 100px;
+          padding: 0 20px;
+        }
+      }
+      .showOrNotMy:hover {
+        .user-operate {
+          display: flex;
+          flex-direction: column;
+          width: 100px;
+          top: 28px;
+          left: 2px;
+          background-color: #101832;
+          position: absolute;
+          padding: 10px 0;
+          border-radius: 5px;
+          a {
+            color: #AFB9C8;
+            cursor: pointer;
+            display: block;
+            text-align: center;
+            font-size: 14px;
+            padding: 5px 0; // line-height: 28px;
+          }
+          a:hover {
+            color: #E83430;
+            background-color: #101a37;
+          }
+        }
+      }
+    }
+  }
+  .select-comp {
+    background: none;
+    width: auto;
+    margin-left: 5px;
+    span {
+      border: 0;
+      color: #AFB9C8;
+    }
+    ul {
+      width: 110px;
+      left: -20px;
+    }
+    .arrow {
+      float: none;
+      position: relative;
+      left: 10px;
+      top: -3px;
+    }
+  }
+
+  .modal-back {
+    display: flex;
+    font-size: 16px;
+
+    p {
+      color: #485E7E;
+    }
+  }
+}
+
+.theme-white {
+  .header {
+    .modal .modal-content {
+      background-color: #fff;
+      color: #485E7E;
+
+      .modal-title {
+        color: #101832 ;
+      }
+
+      .modal-back {
+        p {
+          color: #485E7E;
+        }
+      }
+    }
+  }
+}
+
+.header.addBakC {
+  background-color: #08112C;
+}

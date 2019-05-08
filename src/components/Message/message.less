@@ -1,0 +1,61 @@
+@import '~style/size';
+@import '~style/color';
+#message-container{
+  position: fixed;
+  top: 100px;
+  z-index: 999999;
+  left: 50%;
+  transform: translate(-50%,0);
+  -webkit-transform: translate(-50%,0);
+  .message-item{
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    position: relative;
+    animation: showMessage .7s , hideMessage .7s 2.4s;
+    &.message-success{
+      .message-variant(@minorBg; @minorBg);
+    }
+    &.message-info{
+      .message-variant(@minorBg; @minorBg);
+    }
+    &.message-warning{
+      .message-variant(@minorBg; @minorBg);
+    }
+    &.message-error{
+      .message-variant(@minorBg; @minorBg);
+    }
+  }
+}
+
+.message-variant(@background; @border) {
+  background-color: @background;
+  border: 1px solid @border;
+  > .iconfont{
+    position: absolute;
+    left: 12px;
+    top: 15px + 1.5px;
+    font-size: 14px;
+    color: @border;
+  }
+  > div{
+    margin-left: 20px;
+    word-break: break-word;
+  }
+}
+@keyframes showMessage {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes hideMessage {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}

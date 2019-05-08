@@ -1,0 +1,67 @@
+@import '~style/color.less';
+@import '~style/size.less';
+.userList {
+  &-title {
+    display: flex;
+    height: 46px;
+    align-items: center;
+    background-color: #1E2F5B;
+    position: relative;
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      width: 40px;
+      height: 46px;
+      background-color: #1E2F5B;
+      top: 0;
+    }
+    &:before {
+      left: -40px;
+    }
+    &:after {
+      right: -40px;
+    }
+    h2 {
+      flex: 1;
+      flex-wrap: wrap;
+      text-align: center;
+      color: #485E7E;
+      font-size: 12px;
+      &:first-child {
+        text-align: left;
+      }
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
+  .list-item {
+    li {
+      display: flex;
+      line-height: 47px;
+      span {
+        flex: 1;
+        color: #AFB9C8;
+        display: flex;
+        text-align: center;
+        &:first-child {
+          text-align: left;
+        }
+        &:last-child {
+          text-align: right;
+        }
+      }
+      .operate-btn {
+        display: flex;
+        padding: 0 5px;
+        span {
+          text-decoration: underline;
+        }
+        span:hover {
+          color: #BF5546;
+        }
+      }
+    }
+  }
+}

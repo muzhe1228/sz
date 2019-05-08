@@ -1,0 +1,112 @@
+.adminApi {
+  width: 910px;
+  position: relative;
+  &-top {
+    padding: 40px;
+    height: 420px;
+    background-color: #162345;
+    margin-bottom: 10px;
+    &-subNav {
+      font-size: 16px;
+      padding-top: 30px;
+      color: #AFB9C8;
+      margin-bottom: 30px;
+    }
+    &-wrap {
+      display: flex;
+      justify-content: space-between;
+      .from-l {
+        width: 405px;
+        font-size: 14px;
+        .posrela {
+          position: relative;
+          input {
+            width: 404px;
+            height: 42px;
+            padding-left: 14px;
+            border-radius: 6px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #1E2F5B;
+            background-color: #162345;
+          }
+          label {
+            color: #485E7E;
+          }
+          .errorTip {
+            position: absolute;
+            right: 0;
+            font-size: 12px;
+            color: #BF5546;
+        }
+        }
+        button {
+          width: 210px;
+          height: 42px;
+          color: #fff;
+          font-size: 16px;
+          margin-top: 10px;
+        }
+      }
+      .intor-r {
+        width: 386px;
+        li {
+          position: relative;
+          padding-left: 16px;
+          line-height: 30px;
+          color: #485E7E;
+          &:after{
+            content: '';
+            width: 4px;
+            height: 4px;
+            background-color: #7D8CA5;
+            border-radius: 2px;
+            position: absolute;
+            top: 13px;
+            left: 0; 
+          }
+          &:first-child{
+            color: #AFB9C8;
+            &:after{
+              display: none;
+            }
+          }
+          span{
+            color: #AFB9C8;
+          }
+        }
+      }
+    }
+  }
+  &-bot {
+    padding: 0 40px 40px 40px;
+    background-color: #162345;
+    &-nav {
+      font-size: 16px;
+      padding: 20px 0;
+      color: #AFB9C8;
+    }
+    .userCenter-list {
+      // &-title {
+      //   // rgb(​ 30, ​ 47, ​ 91)
+      //   background-color: rgba(30, 47, 91, .3);
+      //   &:after,
+      //   &:before {
+      //     background-color: rgba(30, 47, 91, .3);
+      //   }
+      // }
+    }
+  }
+  .ApiNotData{
+    width: 100%;
+    padding: 80px;
+    text-align: center;
+    font-size: 22px;
+    a{
+      &:hover{
+        text-decoration: underline;
+        color: #BF5546;
+      }
+    }
+  }
+}

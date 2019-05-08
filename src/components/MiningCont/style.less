@@ -1,0 +1,87 @@
+.miningBot{
+  margin-top: 40px;
+  background-color: #101832;
+  &-nav{
+    height: 52px;
+    width: 100%;
+    padding: 0 40px;
+    border-bottom: 2px solid #C48F0F;
+    display: flex;
+    p{
+      height: 100%;
+      margin: 0 13px;
+      width: 140px;
+      line-height: 50px;
+      text-align: center;
+      font-size: 14px;
+      color: #AFB9C8;
+      cursor: pointer;
+      &.active{
+        background-color: #C48F0F;
+        color: #101832
+      }
+    } 
+  }
+
+  .terrace {
+    margin-bottom: 40px;
+    &-title {
+      display: flex;
+      justify-content: center;
+      padding-top: 18px;
+      &-single {
+        width: 160px;
+        height: 30px;
+        border: 1px solid #374B69;
+        color: #374B69;
+        border-radius: 2px;
+        line-height: 30px;
+        text-align: center;
+        margin: 10px;
+        cursor: pointer;
+        &.active {
+          border-color: #C48F0F;
+          background-color: #C48F0F;
+          color: #101832;
+        }
+      }
+    }
+    &-wrap {
+      &-select {
+        padding: 0 60px;
+        margin: 20px 0;
+      }
+      ul {
+        &:nth-child(even) {
+          background-color: #121B37;
+        }
+      }
+      &-title,
+      &-single {
+        display: flex;
+        height: 46px;
+        line-height: 46px;
+        padding: 0 60px;
+        li {
+          flex: 1;
+          text-align: center;
+          &:first-child {
+            text-align: left;
+          }
+          &:last-child {
+            text-align: right;
+          }
+        }
+      }
+    }
+    .szAll-page {
+      padding: auto 40px;
+    }
+    .notData{
+      height: 46px;
+      padding: 0 60px;
+      line-height: 46px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.asset-water {
+  width: 910px;
+  padding: 40px;
+  position: relative;
+  .select-gulp {
+    margin-top: 20px;
+    display: flex;
+    color: #485E7E;
+    font-size: 14px;
+  }
+  .radio-glup {
+    margin-right: 10px;
+    .ant-radio-button-wrapper {
+      margin-right: 10px;
+      border-radius: 17px;
+      width: 100px;
+      height: 32px;
+      text-align: center;
+      background-color: transparent;
+      border: 1px solid #1E2F5B;
+      color: #7D8CA5;
+      font-size: 14px;
+      &::before {
+        display: none;
+      }
+    }
+    .ant-radio-button-wrapper-checked {
+      background: transparent;
+      z-index: 1;
+      color: #BF5546;
+      border: 1px solid #993E32;
+      -webkit-box-shadow: 0 0 0 0 #BF5546;
+      box-shadow: 0 0 0 0 #BF5546;
+    }
+    .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+      background-color: transparent;
+      color: #BF5546;
+      border: 1px solid #993E32;
+    }
+  }
+  .condition-search {
+    display: flex;
+    margin: 20px 0;
+    .date-mode-info {
+      display: flex;
+      align-items: center;
+      span {
+        font-size: 14px;
+        color: #485E7E;
+      }
+      .ant-calendar-picker {
+        width: 128px;
+        border-radius: 0;
+        &-input {
+          height: 36px;
+          border-radius: 18px;
+          background-color: #131F3E;
+          border-color: #1A2950;
+          color: #7D8CA5;
+          font-size: 14px;
+        }
+        &-icon {
+          display: none;
+        }
+        &-clear {
+          color: #374B69;
+          background-color: transparent;
+        }
+      }
+      .btn {
+        margin-left: 18px;
+        width: 118px;
+        height: 36px;
+        border-radius: 18px;
+        border: 1px solid #993E32;
+        background-color: #993E32;
+        &:hover {
+          opacity: .8;
+        }
+        span {
+          color: #EBEEF4;
+        }
+      }
+    }
+  }
+}
+
+.ant-select-dropdown {
+  background-color: #101A37;
+  &-menu-item {
+    color: #485E7E;
+  }
+}

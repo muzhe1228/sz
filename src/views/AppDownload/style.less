@@ -1,0 +1,55 @@
+.newDownload{
+  background-color: #fff;
+  &-bg{
+    vertical-align: middle;
+    width: 100%;
+  }
+  &-wrap{
+    margin-top: -1px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    position: relative;
+    &-left{
+      width: 471px;
+    }
+    &-right{
+      width: 471px;
+      padding-left: 100px;
+      padding-top: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2{
+        font-size: 36px;
+        color: #08112C;
+      }
+      img{
+        width: 208px;
+        margin: 26px 0;
+      }
+      p{
+        color: #08112C;
+        font-size: 14px;
+      }
+      &-btn{
+        position: relative;
+        .right-btnSize{
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%,-50%);
+          color: #fff;
+          font-size: 18px;
+          text-decoration: none;
+        }
+      }
+    }
+    &-bg{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 236px;
+    }
+  }
+}

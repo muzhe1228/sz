@@ -1,0 +1,38 @@
+@import '~style/color.less';
+@import '~style/size.less';
+.data-list {
+    .table-title {
+      display : flex;
+      height:46px;
+      align-items: center;
+      background-color:#1E2F5B;
+      h2 {
+        flex : 1;
+        text-align: center;
+        color:#485E7E;
+        font-size:@mainSize;
+      }
+    }
+    .list-item {
+        li {
+          display: flex;
+          line-height: 47px;
+          span {
+            flex:1;
+            color:#AFB9C8;
+            display: flex;
+            justify-content: center;
+          }
+          .operate-btn {
+              display: flex;
+              padding:0 5px;
+              span {
+                  text-decoration : underline;
+              }
+              span:hover {
+                  color:#BF5546;
+              }
+          }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+@import '~style/color.less';
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    .modal-content.white {
+        background-color: #fff;
+        color: #485E7E;
+        .modal-title {
+            color: #101832 ;
+        }
+
+        .line-input > div input {
+            border-bottom: 1px solid #AFB9C8;
+            color: #101832;
+        }
+    }
+    .modal-content {
+        position: relative;
+        margin-top: -5%;
+        width: 630px;
+        min-height: 332px;
+        border-radius: 5px;
+        background-color: #162345;
+
+        &>i {
+            display: block;
+            position: absolute;
+            right: 22px;
+            top: 22px;
+            cursor: pointer;
+        }
+
+        &>.modal-title {
+            font-size: 20px;
+            margin-top: 48px;
+            width: 100%;
+            text-align: center;
+        }
+
+        &>.modal-footer {
+            margin-bottom: 60px;
+            text-align: center;
+
+            button {
+                width: 380px;
+                color: #fff;
+                font-size: 16px;
+            }
+        }
+        &>.modal-footer2 {
+            margin-bottom: 60px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+
+            button {
+                width: 180px;
+                color: #fff;
+                font-size: 16px;
+            }
+            div.btn:nth-child(2){padding-left: 20px;}
+        }
+    }
+}

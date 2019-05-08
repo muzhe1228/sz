@@ -1,0 +1,79 @@
+@import "~style/color";
+.trading-tabs {
+  .trading-nav {
+    border-bottom:2px solid #993E32;
+    display: flex;
+    position: relative;
+    .icon-A-2 {
+      font-size:16px;
+    }
+    .trading-nav-input {
+      width: 200px;
+      height: 28px;
+      position: absolute;
+      top: 12px;
+      right: 18px;
+      background: #08112C;
+      border: 1px solid #1E294F;
+      border-radius: 2px;
+      input {
+        width: 100%;
+        padding-left: 28px;
+        padding-right: 5px;
+        line-height: 26px;
+      }
+    }
+    .trading-nav-input:before {
+      content: '';
+      background: url("../../../images/icons/search.png") no-repeat;
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 5px;
+    }
+  }
+  li.active {
+      color:#fff;
+      background-color: #993E32;
+  }
+  .trading-nav-item {
+    width:140px;
+    cursor: pointer;
+    color: #AFB9C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:2px solid transparent;
+    height:52px;
+    .icon {
+      padding-right:9px;
+    }
+  }
+}
+
+.theme-white {
+  .trading-tabs {
+    .trading-nav {
+      .trading-nav-input {
+        background: #EBEEF4;
+        border: 1px solid #E5E7EC;
+
+        input {
+         color: #101832;
+        }
+      }
+    }
+
+    li.active {
+      color:#fff;
+      background-color: #993E32;
+    }
+
+    .trading-nav-item {
+      color: #101832;
+    }
+  }
+}

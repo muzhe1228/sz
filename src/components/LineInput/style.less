@@ -1,0 +1,64 @@
+@import '~style/size';
+@import '~style/color';
+
+.line-input {
+  font-size: 14px;
+  // display: inline-block;
+  &.input-error {
+    input {
+    //   background-color: rgba(3, 10, 31, 0.4);
+    //   border: solid 1px #993E32;
+      // border-color: #993E32;
+    }
+  }
+  > div {
+    display: flex;
+    position: relative;
+    .calcNum{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      height: 45px;
+      line-height: 44px;
+      .icon-guanbi{
+        font-size: 12px;
+      }
+    }
+    input {
+      flex: 1;
+      height: 45px;
+      border-bottom: 1px solid #1E2F5B;
+      outline: none;
+      color: #AFB9C8;
+      &:focus {
+        border-color: #993E32;
+      }
+      
+      &:disabled, &:disabled + .unit {
+        // background-color: @input-readonly-bac;
+        // color: @input-readonly-font;
+      }
+
+      &::-webkit-input-placeholder { /* WebKit browsers */
+          color:    #7D8CA5;
+      }
+      &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+          color:    #7D8CA5;
+      }
+      &::-moz-placeholder { /* Mozilla Firefox 19+ */
+          color:    #7D8CA5;
+      }
+      &:-ms-input-placeholder { /* Internet Explorer 10+ */
+          color:    #7D8CA5;
+      }
+    }
+
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}

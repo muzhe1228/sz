@@ -1,0 +1,52 @@
+/*COLOR*/
+@mainText: #BF5546; //主字体色
+@mainBg: #993E32; //主背景色
+@minorText: #206C46; //次字体色
+@minorBg: #206C46; //次背景色
+@disabled: #a8b7c7; //不可点击颜色
+@fontlv1: #D7DEE9; //level1
+@fontlv2: #AFB9C8; //level2
+@fontlv3: #7D8CA5; //level3
+@fontlv4: #485E7E; //level4
+@fontlv5: #374B69; //level4
+@backgroundlv1: #08112C; //level1
+@backgroundlv2: #101832; //level2
+@backgroundlv3: #101A37; //level3
+@backgroundlv4: #162345; //level4
+
+/*COLOR FOR LIGHT*/
+@lightFontlv1: #AFB9C8;
+@lightFontlv2: #7D8CA5;
+@lightFontlv3: #374B69;
+@lightBackgroundlv1: #fff;
+@lightBackgroundlv2: #EBEEF4;
+@lightBackgroundlv3: #D7DEE9;
+
+//不换行
+.no-wrap() {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+//行数限制
+.text-hid(@variable) {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: @arguments;
+  overflow: hidden;
+}
+
+// 扩展点击区域
+.extend-click() {
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: -9px;
+    left: -9px;
+    right: -9px;
+    bottom: -9px;
+  }
+}

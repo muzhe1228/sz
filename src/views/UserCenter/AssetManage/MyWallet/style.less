@@ -1,0 +1,209 @@
+.my-wallet {
+  width: 910px;
+  position: relative;
+  overflow: hidden;
+  .my-asset {
+    flex: 1;
+    border-radius: 3px;
+    padding: 30px 40px;
+    background-color: #162345;
+    .all-currency {
+      display: flex;
+      justify-content: space-between;
+      &-l {
+        h4 {
+          margin-top: 28px;
+          font-size: 26px;
+          color: #BF5546;
+          font-weight: 400;
+          line-height: 1;
+        }
+        &-select {
+          display: inline-block;
+          position: relative;
+          margin-top: 5px;
+          p {
+            font-size: 14px;
+            color: #7D8CA5;
+            cursor: pointer;
+            height: 20px;
+            line-height: 20px;
+          }
+          ul {
+            background-color: #131F3E;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            width: 60px;
+            li {
+              line-height: 24px;
+              text-align: center;
+              cursor: pointer;
+              color: #7D8CA5;
+            }
+            li:hover {
+              background-color: #101a37;
+              color: #BF5546;
+            }
+          }
+        }
+        &-bot {
+          margin-top: 30px;
+          color: #485E7E;
+        }
+      }
+      &-r {
+        .pie {
+          width: 100px;
+          height: 100px;
+          background-color: #993E32;
+          border-radius: 50%;
+          line-height: 100px;
+          color: #fff;
+          text-align: center;
+        }
+      }
+    }
+  }
+  &-wrap {
+    margin-top: 10px;
+    background-color: #162345;
+    border-radius: 3px;
+    padding: 30px 40px;
+    &-top {
+      padding-bottom: 30px;
+      &-handle {
+        margin-top: 30px;
+        .wallSearch {
+          width: 300px;
+          height: 36px;
+          .ant-input {
+            color: #AFB9C8;
+            background-color: #101A37;
+            border-color: #1E2F5B;
+            border-radius: 18px;
+          }
+          .ant-input-search-icon {
+            color: #AFB9C8;
+            font-size: 16px;
+          }
+        }
+        .ant-checkbox-wrapper {
+          margin-left: 20px;
+          color: #AFB9C8;
+          .ant-checkbox-inner {
+            background-color: #101A37;
+            border-color: #1E2F5B;
+          }
+          .ant-checkbox-checked {
+            .ant-checkbox-inner {
+              background-color: #030A1F;
+              border-color: #BF5546;
+              &:after {
+                border-color: #BF5546;
+              }
+            }
+          }
+        }
+        .wallIcon {
+          display: inline-block;
+          position: relative;
+          margin-left: 10px;
+          &-Icon {
+            font-size: 14px;
+            color: #485E7E;
+            cursor: pointer;
+            transition: all .2s linear;
+          }
+          &-hover {
+            overflow: hidden;
+            position: absolute;
+            width: 260px;
+            height: 0;
+            line-height: 34px;
+            text-align: center;
+            background-color: #030A1F;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: all .2s linear;
+          }
+          &:hover {
+            .wallIcon-Icon {
+              color: #BF5546;
+            }
+            .wallIcon-hover {
+              height: 36px;
+              border: 1px solid #163A65;
+            }
+          }
+        }
+      }
+    }
+    .userCenter-list {
+      &-title,
+      &-single {
+        li {
+          &:first-child {
+            width: 14%;
+          }
+          &:last-child {
+            width: 26%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.eosMark {
+  display: flex;
+  align-items: center;
+  .eosCode {
+    position: relative;
+    padding-left: 10px;
+    &-icon {
+      vertical-align: middle;
+      cursor: pointer;
+    }
+    &-code {
+      display: none;
+      position: absolute;
+      z-index: 2;
+      left: 50%;
+      top: 35px;
+      transform: translateX(-50%);
+      &-jiao {
+        position: absolute;
+        border: 10px solid transparent;
+        top: -20px;
+        left: 50%;
+        margin-left: -5px;
+        border-bottom-color: #fff; 
+      }
+    }
+    &:hover{
+      .eosCode-code{
+        display: block
+      }
+    }
+  }
+}
+
+.chongzhi-notice {
+  position: relative;
+  margin-bottom: 6px;
+  padding-left: 15px;
+  &::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 6px;
+    height: 6px;
+    vertical-align: middle;
+    background-color: #7D8CA5;
+    border-radius: 100%;
+  }
+}
